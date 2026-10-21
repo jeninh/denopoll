@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:22.23.4-alpine
 
 # Install modern OpenSSL (3.x) and compatibility headers
 RUN apk add --no-cache openssl libc6-compat
